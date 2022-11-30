@@ -1,0 +1,26 @@
+{
+  "Component 1": {
+    "prefix": "ice",
+    "body": [
+      "import { Component } from \"solid-js\"",
+      "",
+      "const ${1:$TM_FILENAME_BASE}: Component = () => {",
+      "  return (",
+      "    <div>${1:$TM_FILENAME_BASE}</div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:$TM_FILENAME_BASE}"
+    ]
+  },
+  "Component 2": {
+    "prefix": "c",
+    "body": [
+      "const ${1:$TM_FILENAME_BASE}: Component = () => {",
+      "  return (",
+      "    <div>${1:$TM_FILENAME_BASE}</div>",
+      "  )",
+      "}"
+    ]
+  }
+}
