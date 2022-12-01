@@ -15,12 +15,12 @@ Desktop applications are available for Windows, MacOS, and Linux.
 
 ## Install
 Go to relaese section and choose architecture 
-|extension|platform|
+|platform|extension|
 |-|-|
-.msi | Window 10/11
-.dmg | MacOS 
-.deb | Linux
-.AppImage | Linux
+Window 10/11 | .msi
+MacOS | .dmg 
+Linux | .deb 
+Linux| .AppImage
 
 ## License
 Take a look at LICENSE.md
