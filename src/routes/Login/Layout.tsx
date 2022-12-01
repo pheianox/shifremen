@@ -1,5 +1,5 @@
 import { usePasswordField } from "../../utils/usePasswordField"
-import { Component, createSignal } from "solid-js"
+import { Component, createSignal, onMount } from "solid-js"
 import { TbEye, TbEyeOff, TbLock } from "solid-icons/tb"
 import { useNavigate } from "@solidjs/router"
 import { debounce } from "lodash"
@@ -8,6 +8,7 @@ import app from "../../app"
 const { translate } = app
 
 const Layout: Component = () => {
+  let inputRef: HTMLInputElement | undefined
   const navigate = useNavigate()
   const { password, passwordHidden, setPassword, togglePasswordHidden } = usePasswordField("")
   const passwordEntered = () => password().length > 0
@@ -39,6 +40,8 @@ const Layout: Component = () => {
     attemptDebounced()
   }
 
+  onMount(() => inputRef?.focus())
+
   return (
     <div class="absolute top-0 left-0 bottom-0 right-0 grid place-items-center transition duration-100">
       <div class="rounded-md flex flex-col gap-4 select-none">
@@ -51,6 +54,7 @@ const Layout: Component = () => {
         <h3 class="text-center text-sm">{translate("login.title")}</h3>
         <div class="flex gap-2 relative">
           <input
+            ref={inputRef}
             type={passwordHidden() ? "password" : "text"}
             placeholder={translate("typeHere")}
             class="input input-sm input-bordered max-w-64"
