@@ -1,3 +1,5 @@
+<img src="src/assets/logo.png" width="200"/>
+
 ## Shifremen
 
 Shifremen is a secure password manager that provides a simple interface and a secure way to store passwords.
