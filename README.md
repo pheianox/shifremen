@@ -12,3 +12,15 @@ Desktop applications are available for Windows, MacOS, and Linux.
 - Multilingual Support: AZ, EN, RU
 - Customizable Appearance: Dark/Light themes
 - Cross Platform: Linux, MacOS, Windows
+
+## Install
+Go to relaese section and choose architecture 
+|extension|platform|
+|-|-|
+.msi | Window 10/11
+.dmg | MacOS 
+.deb | Linux
+.AppImage | Linux
+
+## License
+Take a look at LICENSE.md
