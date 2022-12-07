@@ -19,7 +19,7 @@ Desktop applications are available for Windows, MacOS, and Linux.
 Go to relaese section and choose architecture 
 |platform|extension|
 |-|-|
-Window 10/11 | .msi
+Windows 10/11 | .msi
 MacOS | .dmg 
 Linux | .deb 
 Linux| .AppImage
