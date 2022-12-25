@@ -11,7 +11,7 @@ import { createShortcut } from "@solid-primitives/keyboard"
 
 import routes from "./routes"
 
-const DEV_MODE = true
+const DEV_MODE = false
 const DEV_PASS = "covid19W!illkillusall2" // KazbekKazbek!123
 
 function App() {
