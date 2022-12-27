@@ -14,13 +14,7 @@ Shifremen is a secure password manager that provides a simple interface and secu
 - Cross Platform: Linux, MacOS, Windows
 
 ## Install
-Go to relaese section and choose platform 
-|platform|extension|
-|-|-|
-Windows 10/11 | .msi
-MacOS | .dmg 
-Linux | .deb 
-Linux| .AppImage
+All packages are avaiable on [homepage](shifremen.vercel.app/) 
 
 ## License
 Take a look at LICENSE.md
