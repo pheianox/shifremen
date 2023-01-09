@@ -16,5 +16,5 @@ Shifremen is a secure password manager that provides a simple interface and secu
 ## Install
 All packages are avaiable on [homepage](https://shifremen.vercel.app/) 
 
-## License
-Take a look at LICENSE.md
+## Contributions
+Welcome to good help
