@@ -1,4 +1,4 @@
-<img src="src/assets/logo.png" width="200"/>
+![Slide 16_9 - 1 (2)](https://user-images.githubusercontent.com/77569421/211337190-c9a2dbc2-82be-434c-9873-3f02feca97e1.png)
 
 ## Shifremen
 
